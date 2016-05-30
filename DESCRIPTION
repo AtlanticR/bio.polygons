@@ -6,7 +6,7 @@ Description: This project interacts with the functionality of ecomod
     to create, store and retrieve coordinates of various polygons of interest ...
 Depends: R (>= 3.0.0)
 Imports: devtools, ecomod_base
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, rgdal, sp, raster, maps, mapdata
 VignetteBuilder: knitr
 License: MIT
 LazyData: true
