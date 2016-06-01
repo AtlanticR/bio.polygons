@@ -18,7 +18,7 @@ polygon.db = function( DS="load", p=NULL, id=NULL, crs="+init=epsg:4326", plotma
 
   if (DS=="load") {
     fn = NULL
-    fn = try( find.ecomod.gis( id ) )
+    fn = try( find.bio.gis( id ) )
     if ( class(fn) %in% "try-error") {
       print( "Something went wrong. See error message below:" )
       print( fn)

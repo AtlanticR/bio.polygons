@@ -4,7 +4,7 @@
 # Example
 
   # load helper functions
-  ecomodLibrary( "bio.polygons", "bio.coastline" )
+  bioLibrary( "bio.polygons", "bio.coastline" )
 
   p = list() # start parameter list
 
@@ -23,7 +23,7 @@
   # Access method 1: low level
   # read the data with read.table or read.csv
   polygon.db( DS="map.background", p=p )
-  scotianshelf = read.table( find.ecomod.gis( "test"  ) )
+  scotianshelf = read.table( find.bio.gis( "test"  ) )
   lines( scotianshelf, col="green" )  # plot to confirm we have the right data
 
   # Access method 2: medium
