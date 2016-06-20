@@ -5,6 +5,7 @@
 
   # load helper functions
   bioLibrary( "bio.polygons", "bio.coastline" )
+  Rlibrary( "rgdal", "sp", "raster", "maps", "mapdata")
 
   p = list() # start parameter list
 

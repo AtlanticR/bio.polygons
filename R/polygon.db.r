@@ -3,11 +3,6 @@ polygon.db = function( DS="load", p=NULL, id=NULL, crs="+init=epsg:4326", plotma
   #\\ create/extract polygons and/or return on a map
   #\\ if crs is passed, default storage/load CRS is assumed lonlat
   #\\ default return value is lon/lat in data frame, also possible to return as a polygon
-  require( rgdal)
-  require( sp)
-  require(raster)
-  library(maps)
-  library(mapdata)  # high resolution world coastlines/polygons
 
   if (DS=="map.background") {
     # load libraries to quickly map coastlines
