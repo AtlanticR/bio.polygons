@@ -10,6 +10,6 @@ Suggests: knitr, rmarkdown, rgdal, sp, raster, maps, mapdata
 VignetteBuilder: knitr
 License: MIT
 LazyData: true
-URL: https://github.com/Beothuk/bio.polygons/
+URL: https://github.com/PopulationEcologyDivision/bio.polygons/
 
 

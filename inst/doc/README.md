@@ -6,6 +6,6 @@ Installation:
 
 ```
 require( devtools ) # or install.packages( "devtools", dependencies=TRUE )
-install_github( "beothuk/bio.polygons" ) 
+install_github( "PopulationEcologyDivision/bio.polygons" ) 
 ```
 
